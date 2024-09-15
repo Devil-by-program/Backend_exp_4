@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Signup Form</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div class="container right-panel-active">
+      <div class="container__form container--signin">
+        <form action="/signup" class="form" id="form2" method="POST">
+          <h2 class="form__title">Signup Form</h2>
+
+          <label for="firstName">First Name:</label>
+          <input type="text" name="firstName" id="firstName" required class="input">
+
+          <label for="lastName">Last Name:</label>
+          <input type="text" name="lastName" id="lastName" required class="input">
+
+          <label for="email">Email Id:</label>
+          <input type="email" name="email" id="email" required class="input">
+
+          <label for="password">Password:</label>
+          <input type="password" name="password" id="password" required class="input">
+
+          <button class="btn" type="submit">Signup</button>
+        </form>
+      </div>
+
+      <div class="container__overlay">
+        <div class="overlay">
+          <div class="overlay__panel overlay--left">
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
